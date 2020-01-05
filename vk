@@ -1,0 +1,4 @@
+In [32]: import requests
+In [33]: access_token = 'a538d1caa538d1caa538d1ca66a5562183aa538a538d1cafb296723c39c9948580180ea'
+         api_version = '5.92'
+In [27]:res_wall = requests.get(f'https://api.vk.com/method/wall.get?domain=hsehokku&count=100&access_token={access_token}&v={api_version}')         
